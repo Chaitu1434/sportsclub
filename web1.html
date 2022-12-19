@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sports Club Website</title>
+    <style>
+        body{
+           color:limegreen;
+           margin:10px;
+           padding:0px;
+        }
+        .left{
+          / border: 2px solid crimson;/
+           disply: inline-block;
+           position: absolute;
+           left:35px;
+           top:10px; 
+        }
+        .left img{
+              width: 300px;
+              height: 100px;
+        }
+        .left div{
+              text-align: center;
+              line-height:30px;
+              font-size:17px;
+        }
+
+   .mid{
+         /  border: 2px solid crimson;/
+           disply:block;
+           width:33%;
+           margin:90px auto;
+
+        }
+        .navbar{
+            display:inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            text-decoration: none;
+            color:white;
+            padding: 34px 10px;
+        }
+        .navbar li a:hover , .navbar li a.active{
+            text-decoration: underline;
+            color: yellow;
+        }
+        .right{
+           /border: 2px solid crimson;/
+           disply: inline-block;
+           position: absolute;
+           right:35px;
+           top:70px;
+        }
+        .btn{
+            background-color: #80deea;
+            color:#e64a19 ;
+            margin: 0px 9px;
+            padding: 4px 14px;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: whitesmoke;
+            color:black;
+        }
+        .container{
+            border: 2px solid orange;
+            margin: 100px 114px;
+            padding: 59px;
+            width: 404px;
+            border-radius: 60px;
+        }
+        .form input{
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 4px;
+            border-radius: 15px;
+            margin: 15px auto;
+            font-size: 17px;
+            border: 2px solid black;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 45%;
+            margin: 29px auto;
+
+        }
+        .hp{
+		background-repeat:no-repeat;
+		background-size:cover;
+		height:100vh;
+	  }
+    </style>
+</head>
+<body>
+<body class="hp" background="back1.jpg">
+   <header>
+    <div class="left">
+   <img src="logo2.png">
+
+    </div>
+   <div class="mid">
+        <div class="navbar">
+        <li><a href=""class"active">Home</a></li>
+        <li><a href="About us.html">About us</a></li>
+        <li><a href="Timings.html">Timings</a></li>
+        <li><a href="contact us.html">contact us</a></li> 
+        
+    </div>
+    </div>
+    <div class="right">
+    <button class="btn"><a
+        href="https://instagram.com/apexsportsclub?igshid=YmMyMTA2M2Y=">Follow us</a>
+         </button>
+    <button class="btn"><a
+            href="https://www.decathlon.in/">Shop</a>
+             </button>
+
+    </div>
+   </header>
+<div class="container">
+    <h1>Join our Club</h1>
+    <form action="registation.php">
+        <div class="form">
+            <input type="text"name=""id=""placeholder="Enter your name">
+        </div>
+        <div class="form">
+            <input type="text"name=""id=""placeholder="Age">
+        </div>  
+       <div class="form">
+            <input type="text"name=""id=""placeholder="Village">
+        </div>    
+        <div class="form">
+            <input type="text"name=""id=""placeholder="State">
+        </div>   
+        <div class="form">
+            <input type="text"name=""id=""placeholder=" Contact Number">
+        </div>
+        <button class="btn">Sumbit</button>
+</form>
+</div>
+</body>
+</htm>
